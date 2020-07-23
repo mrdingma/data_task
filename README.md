@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/7yjjkck.png">
+
 # Step 4
 
 Since the target is above 90% agreement, the metrics currently fall far below the target. The 3 Label agreement rate is roughly 30-35%, and the 5 Label agreement is ~20%. The result is not surprising, and actually falls within expectation given the random nature of the labeling. In order to improve metrics, major changes need to be implemented.
