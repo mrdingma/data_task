@@ -18,7 +18,7 @@ If we are talking hypothetically, and the raters consciously selected the labels
 
 # Step 6
 
-SELECT
+SELECT  
 Rater,    
 SUM(case Label_Agreement_3 when 'yes' then 1 else 0 end) 3LabelAgreeCount  
 SUM(case Label_Agreement_5 when 'yes' then 1 else 0 end) 5LabelAgreeCount  
