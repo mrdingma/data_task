@@ -10,7 +10,7 @@ If we are talking hypothetically, and the raters consciously selected the labels
 2. flagging raters that are performing below expectation.
 3. adding a review layer (a 2nd rater) in place, to better ensure accuracy.
 
-# Step 5 Identify 3 more potential questions to consider that can be used to identify issues among raters
+# Step 5
 
 1. At what rate did raters label higher than the engineer?
 2. At what rate did raters label lower than the engineer?
