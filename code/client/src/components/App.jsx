@@ -396,8 +396,6 @@ const App = (props) => {
                     dataSource={chart1Settings}
                   />
                 </td>
-              </tr>
-              <tr>
                 <td>
                   <ReactFusioncharts
                     type="msline"
@@ -420,8 +418,6 @@ const App = (props) => {
                     dataSource={chart3Settings}
                   />
                 </td>
-              </tr>
-              <tr>
                 <td>
                   <ReactFusioncharts
                     type="column2d"
