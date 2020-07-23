@@ -16,14 +16,16 @@ If we are talking hypothetically, and the raters consciously selected the labels
 
 # Step 6
 
-<!--
 SELECT
-  Rater,
-  SUM(case Label_Agreement_3 when 'yes' then 1 else 0 end) 3LabelAgreeCount
-  SUM(case Label_Agreement_5 when 'yes' then 1 else 0 end) 5LabelAgreeCount
-  count(*) as Total
-  3LabelAgreeCount / Total as 3LabelRate
-  5LabelAgreeCount / Total as 5LabelRate
+Rater,
+SUM(case Label_Agreement_3 when 'yes' then 1 else 0 end) 3LabelAgreeCount
+SUM(case Label_Agreement_5 when 'yes' then 1 else 0 end) 5LabelAgreeCount
+count(\*) as Total
+3LabelAgreeCount / Total as 3LabelRate
+5LabelAgreeCount / Total as 5LabelRate
+
 FROM rater_data
+
 GROUP BY Rater
-WHERE Date = '10/6/05' -->
+
+WHERE Date = '10/6/05'
